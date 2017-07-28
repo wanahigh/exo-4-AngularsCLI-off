@@ -1,0 +1,9 @@
+<div style="border: 2px solid black;margin:25%;" class="container-fluid">
+
+    <h1>AJOUTER UN FRUIT</h1>
+
+    <input type="text" [(ngModel)]="fruit">
+
+    <button class="btn btn-success" (click)="fruits.push(fruit)">ajouter un fruit</button>
+<app-fruit [fruit]="legume" [fruits]="fruits"></app-fruit>
+</div>
